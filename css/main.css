@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Demi.otf);
+}
+
+h1 {
+    font-family: Avenir, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    color: #FAFAFA;
+}
+
+.input-word {
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    background: #515151;
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    font-family: Avenir, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
